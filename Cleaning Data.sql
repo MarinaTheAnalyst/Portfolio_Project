@@ -97,4 +97,4 @@ SELECT * FROM CTE_rownum where row_num > 1 order by PropertyAddress;
 SELECT * from nashville;
 
 ALTER TABLE nashville 
-DROP COLUMN TaxDistrict, PropertyAddress, SaleDate
+DROP COLUMN TaxDistrict, PropertyAddress, SaleDate;
